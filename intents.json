@@ -1,0 +1,100 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Olá", "Oi", "E aí", "Tudo certo"],
+      "responses": ["Olá!", "Oi, como vai?", "Olá, tudo bem?"]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["Até mais", "Tchauzinho", "Obrigado", "Valeu"],
+      "responses": ["Até logo", "Nos vemos em breve", "Tchau!"]
+    },
+    {
+      "tag": "about_pipe",
+      "patterns": ["O que é o PIPE?", "Pode explicar o PIPE?", "Como funciona o PIPE?"],
+      "responses": [
+        "O Programa PIPE (Pesquisa Inovativa em Pequenas Empresas) da FAPESP visa apoiar projetos de pesquisa e desenvolvimento tecnológico em pequenas empresas do estado de São Paulo.",
+        "Este programa fomenta a inovação tecnológica ao financiar pesquisas e assegurar que a propriedade intelectual gerada seja de exclusiva posse da empresa, sem necessidade de compartilhamento com a FAPESP."
+      ]
+    },
+    {
+      "tag": "program_goals",
+      "patterns": ["Quais são os objetivos do PIPE?", "Para que serve o PIPE?", "Qual a finalidade do programa?"],
+      "responses": [
+        "1. Facilitar a pesquisa científica e tecnológica para promover inovações e aumentar a competitividade das pequenas empresas.",
+        "2. Estimular o crescimento econômico e social através da pesquisa.",
+        "3. Aumentar o investimento privado em pesquisa tecnológica.",
+        "4. Fomentar parcerias entre empresas e acadêmicos para projetos inovadores.",
+        "5. Apoiar a criação de centros de desenvolvimento tecnológico e gerar empregos para pesquisadores."
+      ]
+    },
+    {
+      "tag": "program_stages",
+      "patterns": ["Quais são as etapas do PIPE?", "Como funciona o processo do PIPE?", "Fases do PIPE?"],
+      "responses": [
+        "Fase 1: Avaliação da viabilidade técnica e científica da ideia.",
+        "Fase 2: Desenvolvimento do projeto para transformar a ideia em um produto ou processo.",
+        "Fase 3: Comercialização do produto ou processo, sem apoio financeiro da FAPESP."
+      ]
+    },
+    {
+      "tag": "report_format",
+      "patterns": ["Qual o formato do relatório?", "Como deve ser estruturado o relatório?", "Há regras para o relatório?"],
+      "responses": [
+        "Os relatórios parciais e finais devem seguir a estrutura recomendada pela FAPESP, com um máximo de 20 páginas para os principais itens. Verifique o site da FAPESP para detalhes exatos sobre a formatação e conteúdo."
+      ]
+    },
+    {
+      "tag": "phase_one_mandatory",
+      "patterns": ["É necessário passar pela Fase 1?", "Posso iniciar na Fase 2 diretamente?", "A Fase 1 é obrigatória?"],
+      "responses": [
+        "A Fase 1 não é obrigatória se você conseguir demonstrar a viabilidade técnica já concluída. Nesse caso, pode-se avançar diretamente para a Fase 2, desde que forneça uma justificativa robusta para a avaliação."
+      ]
+    },
+    {
+      "tag": "priority_areas",
+      "patterns": ["Existem áreas prioritárias no PIPE?", "O PIPE foca em áreas específicas?"],
+      "responses": [
+        "Não há áreas prioritárias estabelecidas pelo PIPE. O programa está aberto a inovações em qualquer área do conhecimento, desde que a pesquisa tenha um potencial significativo de impacto e inovação."
+      ]
+    },
+    {
+      "tag": "additional_info",
+      "patterns": ["Onde encontro mais informações sobre o PIPE?", "Como obter detalhes sobre o programa?", "Mais informações sobre o PIPE?"],
+      "responses": [
+        "Para mais detalhes sobre o PIPE, acesse o site da FAPESP em fapesp.br/pipe, onde você encontrará informações completas sobre o programa, incluindo normas e chamadas abertas."
+      ]
+    },
+    {
+      "tag": "funding_amounts",
+      "patterns": ["Qual o valor do financiamento para cada fase?", "Quanto é o apoio financeiro em cada fase?", "Valores do PIPE?"],
+      "responses": [
+        "Para a Fase 1, o financiamento pode ser de até R$ 400.000.",
+        "Para a Fase 2, o valor pode chegar a R$ 2.000.000.",
+        "A Fase 3 não conta com financiamento da FAPESP; a empresa deve buscar recursos próprios ou outras fontes de financiamento para a comercialização."
+      ]
+    },
+    {
+      "tag": "team_requirements",
+      "patterns": ["Qual é a equipe necessária para o PIPE?", "Quem pode participar do projeto PIPE?", "Requisitos para a equipe do projeto?"],
+      "responses": [
+        "Para participar do PIPE, a equipe deve ser composta por membros com habilidades relevantes para o projeto. Idealmente, deve incluir um líder de projeto com experiência em pesquisa e desenvolvimento, e outros profissionais com competências técnicas e gerenciais necessárias para a execução do projeto. Além disso, a colaboração com instituições acadêmicas ou de pesquisa pode ser vantajosa."
+      ]
+    },
+    {
+      "tag": "proposal_requirements",
+      "patterns": ["Quais são os requisitos para a proposta?", "O que deve conter a proposta para o PIPE?", "Requisitos da proposta PIPE?"],
+      "responses": [
+        "A proposta deve incluir uma descrição detalhada do projeto, a justificativa técnica e científica, o plano de trabalho, o orçamento, e a equipe envolvida. Deve demonstrar a viabilidade técnica, a inovação proposta e o impacto potencial no mercado. Certifique-se de seguir as diretrizes específicas no site da FAPESP para garantir que sua proposta esteja completa e em conformidade."
+      ]
+    },
+    {
+      "tag": "evaluation_process",
+      "patterns": ["Como é o processo de avaliação do PIPE?", "Quem avalia os projetos PIPE?", "Como os projetos são avaliados?"],
+      "responses": [
+        "Os projetos submetidos ao PIPE são avaliados por uma comissão de especialistas em pesquisa e desenvolvimento, designada pela FAPESP. A avaliação considera a inovação tecnológica, a viabilidade técnica, o impacto potencial no mercado, e a competência da equipe envolvida. O processo inclui uma análise detalhada dos documentos submetidos e, em alguns casos, entrevistas ou apresentações."
+      ]
+    }
+  ]
+}
